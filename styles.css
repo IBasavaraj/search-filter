@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center; 
+    margin-top: 2rem;
+}
+hr {
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+h3 {
+    text-align: center; 
+    margin: 5rem auto;
+}
+
+.default__text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* search bar */
+.search_bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;   
+}
+
+.search_bar input {
+    width: 50%;
+    line-height: 1.5;
+
+}
+.search_bar input {
+    margin-right: 0.5rem;
+}
+
+/* movies */
+.movie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+
+}
+.movie {
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width: 10rem; 
+    margin: 2.5%;
+}
+.movie__name , .movie__year {
+    margin: .5rem;
+}
+
+.movie__container h3 {
+    margin: 5rem;
+    color: brown;
+}
+
+
+
+
+
+
